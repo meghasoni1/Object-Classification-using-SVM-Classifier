@@ -6,7 +6,7 @@ SIFT features are extracted from the directory of images. Training of the classi
 
 > python getFeatures.py -t dataset/train/
 
-##**TESTING THE CLASSIFIER**
+## **TESTING THE CLASSIFIER**
 Classification is carried out on the directory of testing images using the classifier trained earlier.
 
 > python classify.py -t dataset/test --visualize
